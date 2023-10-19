@@ -6,6 +6,10 @@ export default class MyReactComponent extends Component {
         console.log("I am called")
     }
 
+    UNSAFE_componentWillReceiveProps() {
+        console.log("I am called through component will receiveprops")
+    }
+
     render() {
         return <fieldset>
             <legend>This is React component</legend>
